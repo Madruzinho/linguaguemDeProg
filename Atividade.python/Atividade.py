@@ -55,7 +55,7 @@ Leia um valor em metros e o converta para centímetros e milímetros. """
 
 print("5. Conversor de Medidas")
 
-valorMetros = int(input("Insira um valor em metros"))
+valorMetros = float(input("Insira um valor em metros"))
 valorCm = valorMetros * 100
 valorMm = valorMetros * 1000
 
@@ -82,8 +82,8 @@ Peça dois números e mostre os resultados da soma, subtração, multiplicação
 eles. """
 
 print("7. Calculadora de Quatro Operaçoes")
-PrimeiroNum = int(input("Insira o primeiro valor: "))
-SegundoNum = int(input("Insira o segundo valor: "))
+PrimeiroNum = float(input("Insira o primeiro valor: "))
+SegundoNum = float(input("Insira o segundo valor: "))
 Soma = PrimeiroNum + SegundoNum
 Subtracao = PrimeiroNum - SegundoNum
 Multiplicao = PrimeiroNum * SegundoNum
@@ -100,9 +100,9 @@ Leia três notas de um aluno e calcule a sua média final. """
 
 print("8. Calculo de Media Escolas")
 
-PrimeiraNota = int(input("Primeira nota: "))
-SegundaNota = int(input("Segunda nota: "))
-TerceiraNota = int(input("Terceira nota: "))
+PrimeiraNota = float(input("Primeira nota: "))
+SegundaNota = float(input("Segunda nota: "))
+TerceiraNota = float(input("Terceira nota: "))
 
 mediaFinal = (PrimeiraNota + SegundaNota + TerceiraNota) / 3
 
@@ -115,8 +115,8 @@ Peça a base e a altura de um retângulo e calcule sua área. """
 
 print("9. Calculo de Area")
 
-Base = int(input("Informe a base: "))
-Altura = int(input("Informe a altura: "))
+Base = float(input("Informe a base: "))
+Altura = float(input("Informe a altura: "))
 
 Area = Base * Altura
 
