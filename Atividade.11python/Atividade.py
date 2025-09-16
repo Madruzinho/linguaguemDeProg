@@ -18,7 +18,7 @@ class esfera:
 
 op = 0
 while op != 3:
-    op = int(input("1 - Area de um retangulo \n2 - Volume de uma esfera \n opçao: "))
+    op = int(input("1 - Area de um retangulo \n2 - Volume de uma esfera \n3 - Sair \nopçao: "))
 
     if op == 1:
         altura, largura = map(float, input("Informe a altura e largura: ").split())
