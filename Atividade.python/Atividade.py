@@ -2,7 +2,7 @@
 Peça o nome do usuário e mostre a mensagem: "Olá, [nome]! Bem-vindo(a)!". """
 
 print("1. Saudaçao Personalizada")
-nome1 = input("Insira o seu nome: ")
+nome1 = input("Insira o seu nome: ")  
 
 print("Olá," + nome1 + "! Bem-vindo(a)!")
 
